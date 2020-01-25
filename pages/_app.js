@@ -5,8 +5,10 @@ import Footer from '../components/Footer';
 const _app = ({ Component }) => {
 	return (
 		<Fragment>
-			<Head></Head>
-			<body class='homepage is-preload'>
+			<Head>
+
+			</Head>
+			<body className='homepage is-preload'>
 				<div id='page-wrapper'>
 					<Component></Component>
 					<Footer></Footer>

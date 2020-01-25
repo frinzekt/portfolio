@@ -26,6 +26,15 @@ const Head = props => (
 		<meta property='og:image:width' content='1200' />
 		<meta property='og:image:height' content='630' />
 		<link rel='stylesheet' href='assets/css/main.css' />
+		{/* <link rel='stylesheet' href='assets/css/fontawesome-all.min.css' /> */}
+
+		{/* <!-- Scripts --> */}
+		<script defer src='assets/js/jquery.min.js'></script>
+		<script defer src='assets/js/jquery.dropotron.min.js'></script>
+		<script defer src='assets/js/browser.min.js'></script>
+		<script defer src='assets/js/breakpoints.min.js'></script>
+		<script defer src='assets/js/util.js'></script>
+		<script defer src='assets/js/main.js'></script>
 	</NextHead>
 );
 

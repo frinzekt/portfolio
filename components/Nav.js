@@ -2,8 +2,8 @@ import React from 'react';
 export const Nav = () => (
 	<nav id='nav'>
 		<ul>
-			<li class='current'>
-				<a href='index.html'>Home</a>
+			<li className='current'>
+				<a href='#header'>Home</a>
 			</li>
 			<li>
 				<a href='#'>Dropdown</a>
@@ -46,10 +46,10 @@ export const Nav = () => (
 				<a href='left-sidebar.html'>Left Sidebar</a>
 			</li>
 			<li>
-				<a href='right-sidebar.html'>Right Sidebar</a>
+				<a href='#Projects'>Projects</a>
 			</li>
 			<li>
-				<a href='no-sidebar.html'>No Sidebar</a>
+				<a href='#Contact'>Contact</a>
 			</li>
 		</ul>
 	</nav>

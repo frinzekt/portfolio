@@ -1,27 +1,29 @@
 import React from 'react';
-export const Intro = () => (<section id='intro' class='wrapper style1'>
-  <div class='title'>The Introduction</div>
-  <div class='container'>
-    <p class='style1'>So in case you were wondering what this is all about ...</p>
-    <p class='style2'>
-      Escape Velocity is a free responsive
-				<br class='mobile-hide' />
-      site template by{' '}
-      <a href='http://html5up.net' class='nobr'>
-        HTML5 UP
-				</a>
-    </p>
-    <p class='style3'>
-      It's <strong>responsive</strong>, built on <strong>HTML5</strong> and <strong>CSS3</strong>, and released for free under the{' '}
-      <a href='http://html5up.net/license'>Creative Commons Attribution 3.0 license</a>, so use it for any of your personal or commercial
-      projects &ndash; just be sure to credit us!
+export const Intro = () => (
+	<section id='intro' className='wrapper style1'>
+		<div className='title'>About Me</div>
+		<div className='container'>
+			<p className='style1'>
+				<strong>My Main Passion Is Creating Application Software and Visualizations</strong>
 			</p>
-    <ul class='actions'>
-      <li>
-        <a href='#' class='button style3 large'>
-          Proceed
+			{/* <p className='style2'></p> */}
+			<p className='style3'>
+				Currently in software engineering, I am spending a lot of time practicing <strong>Full-Stack Development with MERN</strong>{' '}
+				(MongoDB, Express, React, Node) along with different libraries and frameworks associated with it. A list of a couple of tools I
+				learned how to use is <a href=''>here</a>.
+			</p>
+			<br></br>
+			<p className='style3'>
+				With Data Science, I am spending a lot of time with <strong>Python and JavaScript Libraries</strong> to use API or manipulate data
+				in order for visualization. Here are some of my awesome <a href=''>visualization</a>.
+			</p>
+			<ul className='actions'>
+				<li>
+					<a href='#main' className='button style3 large' >
+						More
 					</a>
-      </li>
-    </ul>
-  </div>
-</section>);
+				</li>
+			</ul>
+		</div>
+	</section>
+);

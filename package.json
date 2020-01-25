@@ -6,6 +6,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "@syncfusion/ej2-maps": "^17.4.43",
+    "@syncfusion/ej2-react-charts": "^17.4.43",
+    "@syncfusion/ej2-react-dropdowns": "^17.4.44",
+    "@syncfusion/ej2-react-layouts": "^17.4.44",
+    "@syncfusion/ej2-react-navigations": "^17.4.44",
     "next": "^9.2.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"

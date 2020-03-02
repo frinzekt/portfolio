@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Project = ({ image, category, title, description ,link ="#"}) => {
+const Project = ({ image, category, title, description, link = '' }) => {
 	return (
 		<div className='col-4 col-12-medium'>
 			<section className='highlight'>
@@ -8,7 +8,7 @@ const Project = ({ image, category, title, description ,link ="#"}) => {
 					<img src={image} alt='' />
 				</a>
 				<h3>
-					<a href='#'>
+					<a href={link}>
 						{category} <br></br>
 						{title}
 					</a>

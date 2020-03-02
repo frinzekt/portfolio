@@ -25,6 +25,37 @@ const projectList = [
 		link: 'https://github.com/frinzekt/resume-skills-import'
 	},
 	{
+		image: 'images/projects/personal-finance-analyzer.png',
+		category: 'Data Analysis & Visualization',
+		title: 'Personal Finance Analyzer',
+		description:
+			'A personal project that helps analyzing my personal finance. By importing my Bankwest Statement, analysis and visualizations are automatically made',
+		link: '#Projects'
+	},
+	{
+		image: 'images/projects/x-financial-record-analysis.png',
+		category: 'Data Analysis & Visualization',
+		title: 'X Financial Record Analysis in Australia',
+		description:
+			'My first project in exploring correlating financial data with geolocation data in order to create a visualization of analyzed data that will be displayed on a map',
+		link: 'https://public.tableau.com/profile/frinze.erin.lapuz#!/vizhome/XFinancialAnalysisandReporting/Storyboard'
+	},
+	{
+		image: 'images/projects/microcars.png',
+		category: 'Data Analysis & Visualization',
+		title: 'MicroCars Sensor Displacement Analysis',
+		description: 'A university project of an analysis of sensor displacement data coming from microcars with Python',
+		link: '#Projects'
+	},
+	{
+		image: 'images/projects/warren-truss.png',
+		category: 'Data Analysis & Visualization',
+		title: 'Warren Truss Analysis',
+		description:
+			'A university project of analyzing the strongest and weakest point of a Warren Truss bridge. This is built using algebraic/symbolic computation with Python',
+		link: '#Projects'
+	},
+	{
 		image: 'images/projects/Cafe-Au-Lait.png',
 		category: 'WinForms',
 		title: 'Cafe Au Lait',
@@ -46,8 +77,8 @@ export const Highlights = () => (
 		<div className='title'>Projects</div>
 		<div className='container'>
 			<div className='row aln-center'>
-				{projectList.map(({ image, category, title, description }) => (
-					<ProjectCard image={image} category={category} title={title} description={description} key={title}></ProjectCard>
+				{projectList.map(project => (
+					<ProjectCard {...project} key={project.title}></ProjectCard>
 				))}
 			</div>
 			<div className='row aln-center'>

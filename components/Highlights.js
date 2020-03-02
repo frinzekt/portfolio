@@ -53,7 +53,7 @@ const projectList = [
 		title: 'Warren Truss Analysis',
 		description:
 			'A university project of analyzing the strongest and weakest point of a Warren Truss bridge. This is built using algebraic/symbolic computation with Python',
-		link: '#Projects'
+		link: 'https://github.com/frinzekt/ENSC1002-Warren-Truss/blob/master/warren.ipynb'
 	},
 	{
 		image: 'images/projects/Cafe-Au-Lait.png',

@@ -15,7 +15,7 @@ const Home = () => (
 		<Intro></Intro>
 
 		{/* <!-- Main -->  */}
-		<Main></Main>
+		{/* <Main></Main> */}
 
 		{/* <!-- Highlights -->  */}
 		<Highlights></Highlights>

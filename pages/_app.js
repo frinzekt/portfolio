@@ -5,9 +5,7 @@ import Footer from '../components/Footer';
 const _app = ({ Component }) => {
 	return (
 		<Fragment>
-			<Head>
-
-			</Head>
+			<Head title='Frinze Lapuz - Homepage'></Head>
 			<body className='homepage is-preload'>
 				<div id='page-wrapper'>
 					<Component></Component>

@@ -3,9 +3,12 @@ export const Nav = () => (
 	<nav id='nav'>
 		<ul>
 			<li className='current'>
-				<a href='#header'>Home</a>
+				<a href='#'>Home</a>
 			</li>
 			<li>
+				<a href='#aboutMe'>About Me</a>
+			</li>
+			{/* <li>
 				<a href='#'>Dropdown</a>
 				<ul>
 					<li>
@@ -41,13 +44,14 @@ export const Nav = () => (
 						<a href='#'>Nisl tempus</a>
 					</li>
 				</ul>
-			</li>
-			<li>
-				<a href='left-sidebar.html'>Left Sidebar</a>
-			</li>
+			</li> */}
+
 			<li>
 				<a href='#Projects'>Projects</a>
 			</li>
+			{/* <li>
+				<a href='left-sidebar.html'>Some Cool Things</a>
+			</li> */}
 			<li>
 				<a href='#Contact'>Contact</a>
 			</li>

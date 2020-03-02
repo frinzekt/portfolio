@@ -6,16 +6,17 @@ const Footer = () => {
 		<section id='footer' className='wrapper'>
 			{/* <!-- Footer --> */}
 			<section id='footer' className='wrapper'>
-				<div className='title'>Other Details</div>
+				{/* <div className='title'>Other Details</div> */}
 				<div className='container'>
 					<header className='style1' id='Contact'>
 						<h2>Need to Contact Me?</h2>
 						<p>
-							Just fill in the details below or contact me through any communication media below
+							Contact me through any communication media below
 							<br />I will try to get back to you as soon as I can
 						</p>
 					</header>
 					<div className='row'>
+						<a className='anchor' id='Contact'></a>
 						{/* <div className='col-6 col-12-medium'>
 							<Contact></Contact>
 						</div> */}

@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Project = ({ image, category, title, description }) => {
+const Project = ({ image, category, title, description ,link ="#"}) => {
 	return (
 		<div className='col-4 col-12-medium'>
 			<section className='highlight'>
-				<a href='#' className='image featured'>
+				<a href={link} className='image featured'>
 					<img src={image} alt='' />
 				</a>
 				<h3>

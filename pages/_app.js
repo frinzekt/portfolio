@@ -6,12 +6,12 @@ const _app = ({ Component }) => {
 	return (
 		<Fragment>
 			<Head title='Frinze Lapuz - Homepage'></Head>
-			<div className='homepage is-preload'>
+			<body className='homepage is-preload'>
 				<div id='page-wrapper'>
 					<Component></Component>
 					<Footer></Footer>
 				</div>
-			</div>
+			</body>
 		</Fragment>
 	);
 };

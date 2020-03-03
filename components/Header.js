@@ -13,7 +13,7 @@ export const Header = () => (
 				{/* <Typed strings={['Software Engineering and Data Science Student']} typeSpeed={100} cursorChar={' '}/> */}
 			</p>
 			<p>
-				<Typed strings={['The Digital World Is My Canvas', "Learning MERN Full-Stack Development", "Learning Tableau, Python and R", "Learning UIPath RPA"]} typeSpeed={50} backSpeed={30}  backDelay= {2000} cursorChar={'\u2588'}   loop/>
+				<Typed strings={['The Digital World Is My Canvas', "Learning MERN Full-Stack Development", "Learning Tableau, Python and R", "Learning UIPath RPA"]} typeSpeed={25} backSpeed={20}  backDelay= {2000} cursorChar={'\u2588'}   loop/>
 			</p>
 		</div>
 

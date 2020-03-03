@@ -12,6 +12,7 @@
     "@syncfusion/ej2-react-layouts": "^17.4.44",
     "@syncfusion/ej2-react-navigations": "^17.4.44",
     "next": "^9.2.1",
+    "next-optimized-images": "^2.5.5",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-typed": "^1.2.0"

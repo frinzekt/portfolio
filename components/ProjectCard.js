@@ -5,7 +5,7 @@ const Project = ({ image, category, title, description, link = '' }) => {
 		<div className='col-4 col-12-medium'>
 			<section className='highlight'>
 				<a href={link} className='image featured'>
-					<img src={image} alt='' />
+					<img src={image} alt='' loading='lazy' />
 				</a>
 				<h3>
 					<a href={link}>

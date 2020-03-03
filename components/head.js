@@ -29,7 +29,7 @@ const Head = props => (
 		{/* <link rel='stylesheet' href='assets/css/fontawesome-all.min.css' /> */}
 
 		{/* <!-- Scripts --> */}
-		<script async src='assets/js/jquery.min.js'></script>
+		<script src='assets/js/jquery.min.js'></script>
 		<script defer src='assets/js/jquery.dropotron.min.js'></script>
 		<script defer src='assets/js/browser.min.js'></script>
 		<script defer src='assets/js/breakpoints.min.js'></script>

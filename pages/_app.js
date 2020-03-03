@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 import Head from '../components/head';
 import Footer from '../components/Footer';
-import ImageOptimize from 'next-optimized-images';
 
 const _app = ({ Component }) => {
 	return (

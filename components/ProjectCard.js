@@ -7,7 +7,7 @@ const Project = ({ image, category, title, description, link = '' }) => {
 			<section className='highlight'>
 				<a href={link} className='image featured'>
 					<LazyLoad height={200} offset={100}>
-						<img src={image} alt='' loading='lazy' />
+						<img src={image} alt='' />
 					</LazyLoad>
 				</a>
 				<h3>

@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import {
 	AccumulationChartComponent,
 	AccumulationSeriesCollectionDirective,
@@ -24,7 +25,21 @@ import {
 	Inject
 } from '@syncfusion/ej2-react-charts';
 
-const PieChart = ({ data }) => {
+const PieChart = () => {
+	const [data, setData] = useState([
+		{ name: 'web', percent: '50' },
+		{ name: 'wdb', percent: '50' }
+	]);
+	useEffect(() => {
+		async function fetchData() {
+			console.log('FETCHE');
+			let response = await fetch('https://wakatime.com/share/@frinzekt/839aee37-1006-4024-901f-25eaa4cc1962.json');
+			response = await response.json();
+			response = response.data; // structure of API
+			return response;
+		}
+		fetchData().then(data => setData(data));
+	}, []);
 
 	return (
 		<div style={{ height: '95%', width: '95%' }}>
@@ -85,4 +100,4 @@ class Wakatime extends React.Component {
 	}
 }
 
-export default Wakatime;
+export default PieChart;

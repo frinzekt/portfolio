@@ -32,7 +32,6 @@ const BarChart = () => {
 	]);
 	useEffect(() => {
 		async function fetchData() {
-			console.log('FETCHE');
 			let response = await fetch(
 				'https://cors-anywhere.herokuapp.com/https://wakatime.com/share/@frinzekt/d956df10-f7ca-4970-ab80-efbcf83e19be.json'
 			);

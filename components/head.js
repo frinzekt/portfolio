@@ -29,9 +29,9 @@ const Head = props => (
 		{/* <link rel='stylesheet' href='assets/css/fontawesome-all.min.css' /> */}
 
 		{/* <!-- Scripts --> */}
-		<script defer src='assets/js/jquery.min.js'></script>
-		<script defer src='assets/js/jquery.dropotron.min.js'></script>
-		<script defer src='assets/js/browser.min.js'></script>
+		<script defer src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+		<script defer src='https://cdnjs.cloudflare.com/ajax/libs/jquery.dropotron/1.4.3/jquery.dropotron.min.js'></script>
+		<script defer src='https://cdnjs.cloudflare.com/ajax/libs/jquery-browser/0.1.0/jquery.browser.min.js'></script>
 		<script defer src='assets/js/breakpoints.min.js'></script>
 		<script defer src='assets/js/util.js'></script>
 		<script defer src='assets/js/main.js'></script>

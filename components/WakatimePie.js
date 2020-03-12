@@ -32,7 +32,6 @@ const PieChart = () => {
 	]);
 	useEffect(() => {
 		async function fetchData() {
-			console.log('FETCHE');
 			let response = await fetch(
 				'https://cors-anywhere.herokuapp.com/https://wakatime.com/share/@frinzekt/839aee37-1006-4024-901f-25eaa4cc1962.json'
 			);

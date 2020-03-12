@@ -45,7 +45,9 @@ export const Nav = () => (
 					</li>
 				</ul>
 			</li> */}
-
+			<li>
+				<a href='#statistics'>Personal Statistics</a>
+			</li>
 			<li>
 				<a href='#Projects'>Projects</a>
 			</li>

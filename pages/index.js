@@ -14,11 +14,11 @@ const Home = () => (
 		{/* <!-- Intro -->   */}
 		<Intro></Intro>
 
-		{/* <!-- Main -->  */}
-		{/* <Main></Main> */}
-
 		{/* <!-- Highlights -->  */}
 		<Highlights></Highlights>
+
+		{/* <!-- Main -->  */}
+		<Main></Main>
 	</Fragment>
 );
 

@@ -57,7 +57,7 @@ const BarChart = () => {
 				primaryXAxis={{ title: 'Dates', valueType: 'Category', isIndexed: true, interval: 7 }}
 				primaryYAxis={{ title: 'Time Spent (Hours)' }}
 				tooltip={{ enable: true, header: '<b>${point.x}</b>', format: 'Composition : <b>${point.y} hours</b>' }}
-				width='100%'
+				width='90%'
 			>
 				<Inject services={[ColumnSeries, Category, Tooltip]}></Inject>
 				<SeriesCollectionDirective>

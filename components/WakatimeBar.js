@@ -27,7 +27,7 @@ import {
 
 const BarChart = () => {
 	const initializer = new Array(30);
-	const initDataSet = initializer.map(dataSet => ({ x: 'A', y: 5, text: 'A' }));
+	const initDataSet = initializer.map(dataSet => ({ x: Math.random().toString(36).substring(7), y: 5 }));
 	const [data, setData] = useState(initDataSet);
 	useEffect(() => {
 		async function fetchData() {

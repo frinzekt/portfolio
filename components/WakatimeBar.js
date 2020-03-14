@@ -26,10 +26,9 @@ import {
 } from '@syncfusion/ej2-react-charts';
 
 const BarChart = () => {
-	const [data, setData] = useState([
-		{ name: 'web', percent: '50' },
-		{ name: 'wdb', percent: '50' }
-	]);
+	const initializer = new Array(30);
+	const initDataSet = initializer.map(dataSet => ({ x: 'A', y: 5, text: 'A' }));
+	const [data, setData] = useState(initDataSet);
 	useEffect(() => {
 		async function fetchData() {
 			let response = await fetch(

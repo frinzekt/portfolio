@@ -6,7 +6,7 @@ const Project = ({ image, category, title, description, link = '' }) => {
 		<div className='col-4 col-12-medium'>
 			<section className='highlight'>
 				<a href={link} className='image featured'>
-					<LazyLoad height={200} offset={100}>
+					<LazyLoad height={200} offset={450}>
 						<img src={image} alt='' />
 					</LazyLoad>
 				</a>

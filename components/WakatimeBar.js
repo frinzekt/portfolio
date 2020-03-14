@@ -26,8 +26,15 @@ import {
 } from '@syncfusion/ej2-react-charts';
 
 const BarChart = () => {
-	const initializer = new Array(30);
-	const initDataSet = initializer.map(dataSet => ({ x: Math.random().toString(36).substring(7), y: 5 }));
+	const initializer = new Array(30).fill({});
+	const initDataSet = initializer.map(dataSet => {
+		return {
+			text: Math.random()
+				.toString(36)
+				.substring(7),
+			y: Math.random() * 5
+		};
+	});
 	const [data, setData] = useState(initDataSet);
 	useEffect(() => {
 		async function fetchData() {

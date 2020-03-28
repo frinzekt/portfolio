@@ -39,7 +39,7 @@ const BarChart = () => {
 	useEffect(() => {
 		async function fetchData() {
 			let response = await fetch(
-				'https://cors-anywhere.herokuapp.com/https://wakatime.com/share/@frinzekt/d956df10-f7ca-4970-ab80-efbcf83e19be.json'
+				'https://cors-anywhere.frinzelapuz.now.sh/https:/wakatime.com/share/@frinzekt/839aee37-1006-4024-901f-25eaa4cc1962.json'
 			);
 			response = await response.json();
 			response = response.data; // structure of API

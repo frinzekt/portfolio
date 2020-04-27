@@ -26,14 +26,20 @@ import {
 } from '@syncfusion/ej2-react-charts';
 
 const BarChart = () => {
-	const [data, setData] = useState([
-		{ name: 'web', percent: '50' },
-		{ name: 'wdb', percent: '50' }
-	]);
+	const initializer = new Array(30).fill({});
+	const initDataSet = initializer.map(dataSet => {
+		return {
+			text: Math.random()
+				.toString(36)
+				.substring(7),
+			y: Math.random() * 5
+		};
+	});
+	const [data, setData] = useState(initDataSet);
 	useEffect(() => {
 		async function fetchData() {
 			let response = await fetch(
-				'https://cors-anywhere.herokuapp.com/https://wakatime.com/share/@frinzekt/d956df10-f7ca-4970-ab80-efbcf83e19be.json'
+				'https://cors-anywhere.frinzelapuz.now.sh/https:/wakatime.com/share/@frinzekt/839aee37-1006-4024-901f-25eaa4cc1962.json'
 			);
 			response = await response.json();
 			response = response.data; // structure of API
@@ -57,6 +63,7 @@ const BarChart = () => {
 				primaryXAxis={{ title: 'Dates', valueType: 'Category', isIndexed: true, interval: 7 }}
 				primaryYAxis={{ title: 'Time Spent (Hours)' }}
 				tooltip={{ enable: true, header: '<b>${point.x}</b>', format: 'Composition : <b>${point.y} hours</b>' }}
+				width='90%'
 			>
 				<Inject services={[ColumnSeries, Category, Tooltip]}></Inject>
 				<SeriesCollectionDirective>

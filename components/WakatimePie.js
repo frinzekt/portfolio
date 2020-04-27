@@ -39,7 +39,7 @@ const PieChart = () => {
 			response = response.data; // structure of API
 			return response;
 		}
-		fetchData().then((data) => setData(data));
+		fetchData().then((data) => setData(data.filter((datum)=>datum.percent>0)));
 	}, []);
 
 	return (

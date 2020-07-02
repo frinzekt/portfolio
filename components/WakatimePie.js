@@ -22,24 +22,24 @@ import {
 	DataLabel,
 	DateTime,
 	SplineAreaSeries,
-	Inject
+	Inject,
 } from '@syncfusion/ej2-react-charts';
 
 const PieChart = () => {
 	const [data, setData] = useState([
 		{ name: 'web', percent: '50' },
-		{ name: 'wdb', percent: '50' }
+		{ name: 'wdb', percent: '50' },
 	]);
 	useEffect(() => {
 		async function fetchData() {
 			let response = await fetch(
-				'https://cors-anywhere.herokuapp.com/https://wakatime.com/share/@frinzekt/839aee37-1006-4024-901f-25eaa4cc1962.json'
+				'https://cors-anywhere.frinzelapuz.now.sh/wakatime.com/share/@frinzekt/839aee37-1006-4024-901f-25eaa4cc1962.json'
 			);
 			response = await response.json();
 			response = response.data; // structure of API
 			return response;
 		}
-		fetchData().then(data => setData(data));
+		fetchData().then((data) => setData(data.filter((datum)=>datum.percent>0)));
 	}, []);
 
 	return (
@@ -69,8 +69,8 @@ const PieChart = () => {
 							position: 'Inside',
 							name: 'percent',
 							font: {
-								fontWeight: '600'
-							}
+								fontWeight: '600',
+							},
 						}}
 						radius='100%'
 					></AccumulationSeriesDirective>
@@ -85,8 +85,8 @@ class Wakatime extends React.Component {
 		data: [
 			{ name: 'Web Application', percent: 37 },
 			{ name: 'Data Visualization', percent: 17 },
-			{ name: 'Both', percent: 19 }
-		]
+			{ name: 'Both', percent: 19 },
+		],
 	};
 
 	async componentDidMount() {

@@ -1,4 +1,11 @@
 [{
+        "image": "images/projects/IoT-Sensor-Interface.png",
+        "category": "Internet of Things (IoT)",
+        "title": "IoT Sensor Interface",
+        "description": "IoT project that uses electrical sensors data sent to the public API. This sensor data can is then recorded and can be seen in the interface in realtime.",
+        "link": "https://ecl-frinze.now.sh/dht"
+    },
+    {
         "image": "images/projects/home2health.png",
         "category": "Web Application",
         "title": "Home2Health",
@@ -46,13 +53,6 @@
         "title": "Warren Truss Analysis",
         "description": "A university project of analyzing the strongest and weakest point of a Warren Truss bridge. This is built using algebraic/symbolic computation with Python",
         "link": "https://github.com/frinzekt/ENSC1002-Warren-Truss/blob/master/warren.ipynb"
-    },
-    {
-        "image": "images/projects/Cafe-Au-Lait.png",
-        "category": "WinForms",
-        "title": "Cafe Au Lait",
-        "description": "A Year 11 Project that outlines creation of interface based on the number of items in a database (number of coffee button is determined by the number of coffee in the database)",
-        "link": "https://github.com/frinzekt/Cafe-au-lait-Ordering-System"
     },
     {
         "image": "images/projects/graph-lab.png",

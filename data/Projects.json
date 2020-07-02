@@ -13,18 +13,25 @@
         "link": "https://github.com/frinzekt/multi-route-optimizer"
     },
     {
-        "image": "images/projects/home2health.png",
-        "category": "Web Application",
-        "title": "Home2Health",
-        "description": "A Coders For Causes (CFC) project on a blog supporting resource sharing for the Home2Health research group",
-        "link": "https://home2health.codersforcauses.org/"
-    },
-    {
         "image": "images/projects/CTR-projection.png",
         "category": "Project Management",
         "title": "Cost Time Resource Visualization",
         "description": "Development of a data visualization tool for Project Management: Cost-Time-Resource Projection",
         "link": "https://github.com/frinzekt/CTR-Projection"
+    },
+    {
+        "image": "images/projects/spotimania.png",
+        "category": "Web Application",
+        "title": "Spotimania",
+        "description": "Spotimania is a multiplayer song/artist guessing game based on custom playlist to test your knowledge of musical pop culture.",
+        "link": "https://spotimania.herokuapp.com/"
+    },
+    {
+        "image": "images/projects/home2health.png",
+        "category": "Web Application",
+        "title": "Home2Health",
+        "description": "A Coders For Causes (CFC) project on a blog supporting resource sharing for the Home2Health research group",
+        "link": "https://home2health.codersforcauses.org/"
     },
     {
         "image": "images/projects/resume-skills-import.png",

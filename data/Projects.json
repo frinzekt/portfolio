@@ -23,8 +23,15 @@
         "image": "images/projects/spotimania.png",
         "category": "Web Application",
         "title": "Spotimania",
-        "description": "Spotimania is a multiplayer song/artist guessing game based on custom playlist to test your knowledge of musical pop culture.",
+        "description": "Spotimania is a multiplayer song/artist guessing game based on custom playlist to test your knowledge of musical pop culture. The songs details comes from Spotify API.",
         "link": "https://spotimania.herokuapp.com/"
+    },
+    {
+        "image": "images/projects/livinglab.png",
+        "category": "Web Application",
+        "title": "Living Lab",
+        "description": "The website for the Living Lab Project. The Living Lab Project accelerates the path to market for IoT related products by providing accelerated life tests and real-life trials.",
+        "link": "https://livinglabproject.com/"
     },
     {
         "image": "images/projects/home2health.png",

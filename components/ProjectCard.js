@@ -4,7 +4,7 @@ import LazyLoad from 'react-lazyload';
 const Project = ({ image, category, title, description, link = '' }) => {
 	return (
 		<div className='col-4 col-12-medium'>
-			<section className='highlight'>
+			<section className='highlight' id={title.replace(/ /g, '-')}>
 				<a href={link} className='image featured'>
 					<LazyLoad height={200} offset={450}>
 						<img src={image} alt='' />

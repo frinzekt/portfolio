@@ -1,8 +1,15 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import Head from '../components/head';
 import Footer from '../components/Footer';
+import ReactGa from 'react-ga';
 
 const _app = ({ Component }) => {
+	useEffect(() => {
+		ReactGa.initialize('UA-162451015-1');
+
+		//REPORT PAGE VIEW
+		ReactGa.pageview('/');
+	}, []);
 	return (
 		<Fragment>
 			<Head title='Frinze Lapuz - Homepage'></Head>
